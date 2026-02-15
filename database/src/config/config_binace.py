@@ -1,4 +1,4 @@
-
+from . import genaral_configs as config_general
 
 class config_settings_binance:
     """
@@ -11,5 +11,5 @@ class config_settings_binance:
     """
 
     SYMBOL = "BTCUSDT"
-    START_STR = "2017-08-17"
-    END_STR = "2026-02-13"
+    START_STR = config_general.settings_config_general.START_DATE
+    END_STR = config_general.settings_config_general.END_DATE
