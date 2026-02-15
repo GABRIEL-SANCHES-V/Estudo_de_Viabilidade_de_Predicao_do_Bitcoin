@@ -7,5 +7,8 @@ def get_binance_client():
         Return:
             Client: Cliente para se conectar a API
     """
-
-    return Client()
+    try:
+        return Client()
+    
+    except Exception as error:
+        raise error
