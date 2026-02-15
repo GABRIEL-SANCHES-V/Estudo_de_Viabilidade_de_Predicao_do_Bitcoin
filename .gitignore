@@ -1,3 +1,5 @@
 *.venv
 .envrc
 teste.py
+*.vscode
+*.pyc

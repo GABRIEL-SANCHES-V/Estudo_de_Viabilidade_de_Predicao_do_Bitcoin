@@ -1,0 +1,1 @@
+from .config_binace import config_settings_binance as setting_binance
